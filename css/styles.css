@@ -2,6 +2,10 @@ body {
     Font-family: 'Open Sans', sans-serif;
 }
 
+.header{
+    background-color: gray;
+}
+
 .link {
     text-decoration: none;
 }
@@ -15,6 +19,12 @@ line-height: 16px;
 letter-spacing: 0.1em;
 color: #FFFFFF;
 }
+
+.header-link:hover,
+.header-link:focus{
+color: #FF6C00; 
+}
+
 .header-tel {
     font-family: 'Open Sans';
 font-weight: 600;
@@ -33,4 +43,173 @@ letter-spacing: 0.09em;
 text-transform: uppercase;
 color: #FFFFFF;
 cursor: pointer;
+}
+.header-btn:hover,
+.header-btn:focus {
+    color: #FF6C00;
+}
+
+.hero {
+
+}
+
+.hero-list {
+
+}
+
+.heri-item {
+
+}
+
+.hero-link {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+}
+
+.hero-link:hover,
+.hero-link:focus {
+    color: #FF6C00;
+}
+
+.hero-top-text {
+    font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 15px;
+        /* identical to box height */
+        text-transform: uppercase;
+        color: rgba(157, 164, 189, 0.6);
+
+}
+
+.hero-title {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 85px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+
+}
+
+.hero-bottom-text {
+    font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        /* or 167% */
+        letter-spacing: 0.02em;
+        color: #9DA4BD;
+}
+
+.about {
+    font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 15px;
+        /* identical to box height */
+    
+        text-transform: uppercase;
+    
+        color: #303030;
+}
+
+
+.about-top-text {
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.73;
+     text-transform: uppercase;
+
+}
+
+.about-title {
+    font-weight: 700;
+        font-size: 42px;
+        line-height: 49px;
+        letter-spacing: 0.05em;
+        color: #303030;
+
+}
+
+.about-botom-text {
+    font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.67px;
+        /* or 167% */
+        letter-spacing: 0.02em;
+         color: #555555;
+
+}
+
+.about-btn {
+    font-family: 'Open Sans', inherit;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.09em;
+        text-transform: uppercase;
+    
+        color: #303030;
+
+}
+
+.prices {
+
+}
+
+.price-top-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: rgba(157, 164, 189, 0.6);
+
+}
+
+.price-title {
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 49px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+}
+.
+
+.price-list {
+
+}
+
+.list {
+
+}
+
+.price-item {
+
+}
+
+.price-item-text {
+
+}
+
+.price-btn {
+
 }
