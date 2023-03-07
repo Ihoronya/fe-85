@@ -1,215 +1,258 @@
-body {
-    Font-family: 'Open Sans', sans-serif;
+:root {
+    --main-title-color: #ffffff;
+    --second-title-color: #303030;
+    --main-btn-color: #ffffff;
+    --second-btn-color: #303030;
+    --accent-color: #ff6c00;
 }
 
-.header{
-    background-color: gray;
+body {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .link {
     text-decoration: none;
 }
+
 .list {
-    text-decoration: none;
-}
-.header-link {
-font-weight: 600;
-font-size: 12px;
-line-height: 16px;
-letter-spacing: 0.1em;
-color: #FFFFFF;
+    list-style: none;
 }
 
-.header-link:hover,
-.header-link:focus{
-color: #FF6C00; 
+.btn {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn:is(:hover, :focus) {
+    color: var(--main-btn-color);
+    background-color: #ff6c00;
+}
+
+.top-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+}
+
+.bottom-text {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+}
+
+/**------------- HEADER ---------------*/
+
+.header {
+    background-color: gray;
+}
+
+.header-link {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+}
+
+.header-link:is(:hover, :focus) {
+    color: #ff6c00;
 }
 
 .header-tel {
-    font-family: 'Open Sans';
-font-weight: 600;
-font-size: 12px;
-line-height: 16px;
-letter-spacing: 0.1em;
-text-transform: uppercase;
-color: #FFFFFF;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffffff;
 }
+
 .header-btn {
-    font-family: inherit;
-font-weight: 600;
-font-size: 12px;
-line-height: 16px;
-letter-spacing: 0.09em;
-text-transform: uppercase;
-color: #FFFFFF;
-cursor: pointer;
+    color: var(--main-btn-color);
 }
-.header-btn:hover,
-.header-btn:focus {
-    color: #FF6C00;
-}
+
+/**------------- HERO ---------------*/
 
 .hero {
-
+    background-color: #7b7575;
 }
 
-.hero-list {
+.hero-list {}
 
-}
-
-.heri-item {
-
-}
+.hero-item {}
 
 .hero-link {
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 600;
     font-size: 11px;
-    line-height: 15px;
+    line-height: 1.36;
     letter-spacing: 0.2em;
-    color: #FFFFFF;
+    color: #303030;
 }
 
-.hero-link:hover,
-.hero-link:focus {
-    color: #FF6C00;
+.hero-link:is(:hover, :focus) {
+    color: #ff6c00;
 }
 
 .hero-top-text {
-    font-family: 'Open Sans';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 11px;
-        line-height: 15px;
-        /* identical to box height */
-        text-transform: uppercase;
-        color: rgba(157, 164, 189, 0.6);
-
+    color: rgba(157, 164, 189, 0.6);
 }
 
 .hero-title {
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 700;
     font-size: 72px;
-    line-height: 85px;
-    /* identical to box height */
+    line-height: 1.18;
     letter-spacing: 0.05em;
-    color: #FFFFFF;
-
+    color: var(--main-title-color);
 }
 
 .hero-bottom-text {
-    font-family: 'Open Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 30px;
-        /* or 167% */
-        letter-spacing: 0.02em;
-        color: #9DA4BD;
+    color: #9da4bd;
 }
 
-.about {
-    font-family: 'Open Sans', sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 11px;
-        line-height: 15px;
-        /* identical to box height */
-    
-        text-transform: uppercase;
-    
-        color: #303030;
-}
+/**------------- ABOUT ---------------*/
 
+.about {}
+
+.about-list {}
+
+.about-item {}
 
 .about-top-text {
-    font-size: 11px;
-    line-height: 15px;
-    letter-spacing: 0.73;
-     text-transform: uppercase;
-
+    color: #303030;
 }
 
 .about-title {
-    font-weight: 700;
-        font-size: 42px;
-        line-height: 49px;
-        letter-spacing: 0.05em;
-        color: #303030;
-
+    color: var(--second-title-color);
 }
 
-.about-botom-text {
-    font-family: 'Open Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 1.67px;
-        /* or 167% */
-        letter-spacing: 0.02em;
-         color: #555555;
+.about-bottom-text {
+    color: #555555;
+}
 
+.about-text {
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: 0.02em;
+    color: #555555;
 }
 
 .about-btn {
-    font-family: 'Open Sans', inherit;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 12px;
-        line-height: 16px;
-        letter-spacing: 0.09em;
-        text-transform: uppercase;
-    
-        color: #303030;
-
+    color: var(--second-btn-color);
 }
+
+/**------------- PRICES ---------------*/
 
 .prices {
-
+    background-color: #303030;
 }
 
-.price-top-text {
-    font-family: 'Open Sans';
-    font-style: normal;
+.prices-top-text {
+    color: rgba(157, 164, 189, 0.6);
+}
+
+.prices-title {
+    color: #ffffff;
+}
+
+.prices-list {}
+
+.prices-item {}
+
+.prices-item-text {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #9da4bd;
+}
+
+.prices-btn {
+    color: #ffffff;
+}
+
+/**------------- BENEFITS ---------------*/
+
+.benefits {}
+
+.benefits-list {}
+
+.benefits-item .count {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #303030;
+}
+
+.benefits-item-text {
     font-weight: 600;
     font-size: 11px;
-    line-height: 15px;
-    /* identical to box height */
-    text-transform: uppercase;
-    color: rgba(157, 164, 189, 0.6);
+    line-height: 1.36;
+    text-align: center;
 
+    color: #303030;
 }
 
-.price-title {
-    font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 42px;
-        line-height: 49px;
-        letter-spacing: 0.05em;
-        color: #FFFFFF;
-}
-.
-
-.price-list {
-
+.benefits-top-text {
+    color: #303030;
 }
 
-.list {
-
+.benefits-title {
+    color: var(--second-title-color);
 }
 
-.price-item {
-
+.benefits-bottom-text {
+    color: #555555;
 }
 
-.price-item-text {
+/**------------- BENEFITS ---------------*/
 
+.barbers {}
+
+.barbers-top-text {
+    color: #303030;
 }
 
-.price-btn {
+.barbers-title {
+    color: var(--second-btn-color);
+}
 
+.barbers-list {}
+
+.barbers-item {}
+
+.barbers-item-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.39;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #303030;
+}
+
+.barbers-item-text {
+    font-size: 14px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ff6c00;
+}
+
+/**------------- GALLERY ---------------*/
+
+.gallery-top-text {
+    color: #303030;
 }
